@@ -58,12 +58,31 @@ function App() {
 
         <li className="question">A customer writes in to Support saying simply that their “site won’t build”. You have access to their build logs, and there you see this error: Build failed due to a user error: Build script returned non-zero exit code: 2. You have no more information than this and the site’s source repository is private so you cannot test the build yourself. How would you troubleshoot this issue? What steps would you take? Also, please compose your best customer-facing first response.</li>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum urna vel nisl aliquet, eu dignissim justo pellentesque. Cras lacinia, quam eget fringilla tempus, metus urna tincidunt lectus, eget ultricies justo nisl in risus. Praesent vel convallis quam.
+            To troubleshoot this issue I would begin by gathering and taking stock of all the information I currently have access to and ensure I’m on the same page as the customer. A first step I would take after reviewing the build logs is running a search on the error. It’s possible that this is a common error and there is already a solution for it either in the documentation or on a forum. If there isn’t already a solution after the search, I would check the build scripts to see what the build is trying to do. This will give me a clue as to why the error is persisting. I would also check any dependencies to make sure those are up to date. For this particular error, it looks like this is a fairly common issue with several solutions.
           </p>
+          <p>
+            Hi Customer,
+          </p>
+          <p>
+            Thanks so much for reaching out to us about the issue you’re currently experiencing with your site build. We understand how important it is to resolve this quickly.  
+          </p>
+          <p>
+              To assist you, we’d like to offer some initial suggestions:
+          </p>
+          <ul>
+            <li>Please check your path to Home file. When the path to Home file is incorrect it can lead to site build errors.</li>
+            <li>Ensure that your base directory is specified in your Netlify settings. You can do this by going to "Settings" then "Build and Deploy" then "Edit Settings" and filling in the base directory with "client."</li>
+          </ul>
+          <p>
+            After you’ve had a chance to try the above steps, please let us know if this issue is persisting or you’re encountering any other challenges. Our team is here to support you throughout the troubleshooting process. If you have any questions or require further assistance, please feel free to reach out.
+          </p>
+          <p>Best, Netlify</p>
+
         <li className="question">How would you set up an http 301 status redirect from “/netlify/anything” on your site, to https://www.google.com/search?q=anything. Please provide the redirect formatting here. Now, how about a proxy redirect? Please add that proxy redirect rule directly to your site.</li>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum urna vel nisl aliquet, eu dignissim justo pellentesque. Cras lacinia, quam eget fringilla tempus, metus urna tincidunt lectus, eget ultricies justo nisl in risus. Praesent vel convallis quam.
           </p>
+          
         <li className="question">Please attempt to deploy a function on our service. This need not be complicated. It could be "Hello World". Note that failure to deploy is not failing the exercise! Whether you have trouble or not, please describe what you experienced and how you attempted to troubleshoot any issues you encountered.</li>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum urna vel nisl aliquet, eu dignissim justo pellentesque. Cras lacinia, quam eget fringilla tempus, metus urna tincidunt lectus, eget ultricies justo nisl in risus. Praesent vel convallis quam.
