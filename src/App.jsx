@@ -80,9 +80,9 @@ function App() {
 
         <li className="question">How would you set up an http 301 status redirect from “/netlify/anything” on your site, to https://www.google.com/search?q=anything. Please provide the redirect formatting here. Now, how about a proxy redirect? Please add that proxy redirect rule directly to your site.</li>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum urna vel nisl aliquet, eu dignissim justo pellentesque. Cras lacinia, quam eget fringilla tempus, metus urna tincidunt lectus, eget ultricies justo nisl in risus. Praesent vel convallis quam.
+          To set up an http 301 status redirect on my site I would use a _redirects file in my project. I would create a file called _redirects and add /netlify/anything https://www.google.com/search?q=anything 301 to it. For a proxy redirect I would add /netlify/* https://www.google.com/search?q=:splat 200. 
           </p>
-          
+
         <li className="question">Please attempt to deploy a function on our service. This need not be complicated. It could be "Hello World". Note that failure to deploy is not failing the exercise! Whether you have trouble or not, please describe what you experienced and how you attempted to troubleshoot any issues you encountered.</li>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum urna vel nisl aliquet, eu dignissim justo pellentesque. Cras lacinia, quam eget fringilla tempus, metus urna tincidunt lectus, eget ultricies justo nisl in risus. Praesent vel convallis quam.
