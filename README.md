@@ -1,8 +1,26 @@
-# React + Vite
+# Netlify Exercise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### This is an exercise using Netlify to host a website.
 
-Currently, two official plugins are available:
+## Setup And Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Clone the project to a local directory
+* Run npm install: `npm install`
+* Run: `npm run dev`
+* Open the localhost address in the browser
+
+## Known Bugs
+
+_None_
+
+## Support and Contact Details
+
+If you have any issues or questions, please email me at maryrobinrose@gmail.com.
+
+## Technologies Used
+
+This project was created with Vite and React.
+
+## Legal
+
+Copyright (c) 2024 Mary Robin Rose
