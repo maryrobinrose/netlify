@@ -19,7 +19,7 @@ function App() {
 
         <li className="question">What did you think of our service during the time you used it? Provide some constructive criticism or some features that impressed you.</li>
           <p>
-          As mentioned in the above question, I found the Netlify setup experience to be surprisingly simple and quick. I was really impressed with it’s seamless github integration. I was easily able to connect Netlify to my github repo and see that my site was hosted within a matter of seconds. I also liked that I could very easily change the name of my site without having to dig around in a abyss of settings. 
+          As mentioned in the above question, I found the Netlify setup experience to be surprisingly simple and quick. I was really impressed with its seamless GitHub integration. I was easily able to connect Netlify to my GitHub repo and see that my site was hosted within a matter of seconds. I also liked that I could very easily change the name of my site without having to dig around in an abyss of settings. 
           </p>
 
         <li className="question">Rank your 5 favorite and 5 least favorite activities from this list: <a href="https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab" target="_blank">https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab</a></li>
@@ -85,7 +85,7 @@ function App() {
 
         <li className="question">Please attempt to deploy a function on our service. This need not be complicated. It could be "Hello World". Note that failure to deploy is not failing the exercise! Whether you have trouble or not, please describe what you experienced and how you attempted to troubleshoot any issues you encountered.</li>
           <p>
-          To deploy a simple function I created a new directory in my project titled “functions”, then created a new .js file with the function. The main issue I experienced was with the organization of files within my project. Initially I created only a new directory called “functions” but I didn’t realize that in order for this to work with Netlify, it needed to be inside of another directory titled “netlify”. My initial error lead me to my redirects page. I temporarily commented out my redirect code so see where the page would lead me without those. This led me to a “Page not found” instead of my function, so I knew it wasn’t an issue with my redirects. I then checked Netlify’s documentation and saw that my path needed to be changed. That solved the issue. 
+          To deploy a simple function I created a new directory in my project titled “functions”, then created a new .js file with the function. The main issue I experienced was with the organization of files within my project. Initially I created only a new directory called “functions” but I didn’t realize that in order for this to work with Netlify, it needed to be inside of another directory titled “netlify”. My initial error lead me to my redirects page. I temporarily commented out my redirect code to see where the page would lead me without those. This led me to a “Page not found” instead of my function, so I knew it wasn’t an issue with my redirects. I then checked Netlify’s documentation and saw that my path needed to be changed. That solved the issue. 
           </p>
           <p>You can check the function <a href="https://maryrobinrose.netlify.app/.netlify/functions/newFunction" target="_blank">here.</a></p>
 
