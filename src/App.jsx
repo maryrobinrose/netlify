@@ -87,12 +87,23 @@ function App() {
           <p>
           To deploy a simple function I created a new directory in my project titled “functions”, then created a new .js file with the function. The main issue I experienced was with the organization of files within my project. Initially I created only a new directory called “functions” but I didn’t realize that in order for this to work with Netlify, it needed to be inside of another directory titled “netlify”. My initial error lead me to my redirects page. I temporarily commented out my redirect code so see where the page would lead me without those. This led me to a “Page not found” instead of my function, so I knew it wasn’t an issue with my redirects. I then checked Netlify’s documentation and saw that my path needed to be changed. That solved the issue. 
           </p>
+          <p>You can check the function <a href="https://github.com/maryrobinrose/netlify" target="_blank">here.</a></p>
 
         <li className="question">We understand you don't know anything about our internal procedures at this stage, but we want you to explain at a high level how you'd react to this situation: You receive a report of a severe security issue on www.netlify.com. You can't immediately confirm the report, so what steps might you take to investigate or substantiate the report? What might you say to the reporter, even though we haven't confirmed their assertion yet, that will instill confidence that our business is very concerned about security? You believe there is a reasonable chance the report is correct and the problem is very large and impactful. How might you escalate?</li>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum urna vel nisl aliquet, eu dignissim justo pellentesque. Cras lacinia, quam eget fringilla tempus, metus urna tincidunt lectus, eget ultricies justo nisl in risus. Praesent vel convallis quam.
+            Here’s how I would react to this situation: 
+          </p>
+          <p>
+            First, I would acknowledge the issue and thank the reporter for filing it. Since I can’t immediately confirm the report, I would take an assessment of the issue by collecting as much detail as possible. This may include asking the reporter how they came across this issue, what endpoints are related, and what accounts are being affected and how. 
+          </p>
+          <p>
+            To instill confidence, I would communicate to the reporter that we take security issues very seriously. I would say something along the lines of, “We take security issues very seriously, and your report plays a crucial role in helping us maintain the integrity of our platform.” I would assure them that we have a dedicated security team actively working on the issue.
+          </p>
+          <p>
+            If there is a reasonable chance the report is correct, I would immediately notify my manager and begin an incident response. This likely would include an emergency meeting involving a team that includes security experts. 
           </p>
       </ol>
+      <h3>Thanks for taking the time to review my exercise!</h3>
       <footer>
         <p className="footer">
           Check out the <a href="https://github.com/maryrobinrose/netlify" target="_blank">repo for this site here.</a>
