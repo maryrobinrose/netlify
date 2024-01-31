@@ -1,6 +1,7 @@
 # Netlify Exercise
 
-#### This is an exercise using Netlify to host a website.
+#### This is an exercise using Netlify to host a website. 
+You can view the website here: https://maryrobinrose.netlify.app/
 
 ## Setup And Installation
 
